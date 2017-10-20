@@ -1,6 +1,6 @@
 import VueRouter from 'vue-router';
 import Login from '../pages/login/login.vue';
-import Mine from '../pages/mine/mine.vue';
+// import Mine from '../pages/mine/mine.vue';
 
 
 const routes = [
