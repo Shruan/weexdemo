@@ -1,8 +1,6 @@
 <template>
-  <div class="wrapper" @click="update">
-    <image :src="logoUrl" class="logo"></image>
-    <text class="title">Hello {{target}}</text>
-    <text class="desc">Now, let's use vue to build your weex app.</text>
+  <div id="root">
+    <router-view></router-view>
   </div>
 </template>
 
@@ -14,6 +12,7 @@
 </style>
 
 <script>
+// import router from './router/index.js'
   export default {
     data: {
       logoUrl: 'http://img1.vued.vanthink.cn/vued08aa73a9ab65dcbd360ec54659ada97c.png',

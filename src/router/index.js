@@ -1,14 +1,25 @@
-import VueRouter from 'vue-router';
+import Router from 'vue-router';
 import Login from '../pages/login/login.vue';
 // import Mine from '../pages/mine/mine.vue';
 
+Vue.use(Router)
 
-const routes = [
-  {
-    path:'/',
-    name: 'login',
-    component: Login
-  },
+export default new Router({
+  routes: [
+    {
+      path:'/login',
+      name: 'login',
+      component: Login
+    },
+  ]
+})
+
+// const routes = [
+  // {
+  //   path:'/login',
+  //   name: 'login',
+  //   component: Login
+  // },
   // {
   //   path: '/mine/mine',
   //   name: '用户中心',
@@ -19,14 +30,4 @@ const routes = [
   //   name: '帮助中心',
   //   component: HelpCore
   // }
-];
-
-export default function Router(Vue){
-  Vue.use(VueRouter);
-  const router = new VueRouter({
-    routes: routes
-  });
-  return {
-    router
-  }
-}
+// ];
