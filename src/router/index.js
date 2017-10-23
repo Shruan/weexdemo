@@ -1,5 +1,6 @@
 import Router from 'vue-router';
 import Login from '../pages/login/login.vue';
+import Test from '../pages/test/test1.vue';
 // import Mine from '../pages/mine/mine.vue';
 
 Vue.use(Router)
@@ -7,10 +8,19 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      redirect: '/login'
+    },
+    {
       path:'/login',
       name: 'login',
       component: Login
     },
+    {
+      path:'/test',
+      name: 'test',
+      component: Test
+    }
   ]
 })
 

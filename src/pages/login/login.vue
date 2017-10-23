@@ -1,7 +1,8 @@
 <template>
   <div class="wrapper" @click="update">
-    <image :src="logoUrl" class="logo"></image>
+    <image :src="logoUrl" class="logo" @click="update"></image>
     <text class="title">Hello {{target}}</text>
+    <button type="button" name="button" @click="update">>dsassd</button>
     <text class="desc">Now, let's use vue to build your weex app.</text>
   </div>
 </template>
@@ -12,12 +13,12 @@
       return {
         logoUrl: 'http://img1.vued.vanthink.cn/vued08aa73a9ab65dcbd360ec54659ada97c.png',
         target: 'World'
-      }  
+      }
     },
     methods: {
-      update: function (e) {
-        this.target = 'Weex'
-        console.log('target:', this.target)
+      update (e) {
+        console.log('xxxx')
+        this.$router.push({path: '/test'})
       }
     }
   }
