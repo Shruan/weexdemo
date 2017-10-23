@@ -1,14 +1,20 @@
 <template>
   <div class="wrapper" @click="update">
-    <image :src="logoUrl" class="logo" @click="update"></image>
+    <image :src="logoUrl" class="logo"></image>
     <text class="title">Hello {{target}}</text>
-    <button type="button" name="button" @click="update">>dsassd</button>
     <text class="desc">Now, let's use vue to build your weex app.</text>
+    <div style="margin-top:50px">
+      <wxc-button text="update" type="normal" @wxcButtonClicked="update"></wxc-button>
+    </div>
   </div>
 </template>
 
 <script>
+  import { WxcButton } from "weex-ui"
   export default {
+    components: {
+      WxcButton
+    },
     data () {
       return {
         logoUrl: 'http://img1.vued.vanthink.cn/vued08aa73a9ab65dcbd360ec54659ada97c.png',
@@ -17,16 +23,15 @@
     },
     methods: {
       update (e) {
-        console.log('xxxx')
         this.$router.push({path: '/test'})
       }
     }
   }
 </script>
 
-<style>
-  .wrapper { align-items: center; margin-top: 120px; }
-  .title { padding-top:40px; padding-bottom: 40px; font-size: 48px; }
+<style scoped>
+  .wrapper { align-items: center; margin-top: 50px}
+  .title { padding-bottom: 40px; font-size: 48px; }
   .logo { width: 360px; height: 156px; }
   .desc { padding-top: 20px; color:#888; font-size: 24px;}
 </style>
