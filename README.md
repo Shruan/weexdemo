@@ -64,3 +64,6 @@ pod install
 使用 Xcode 打开 `ios` 目录中的项目（`HackerNews.xcworkspace`），然后即可启动模拟器预览页面。
 
 > 注：如果想要在真机上查看效果，还需要配置开发者签名等信息。
+
+### Weex-Ui 的使用
+该项目仅引入weex-ui组件，简单使用 { WxcButton } 组件，详细使用见：[weex-ui 官方文档](https://github.com/alibaba/weex-ui)
