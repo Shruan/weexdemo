@@ -20,19 +20,19 @@ npm run serve
 编译代码：
 
 ```bash
-# 生成 Web 平台和 native 平台可用的 index.js 文件
+# 生成 Web 平台和 native 平台可用的 main.js 文件
 # 位置：
-# dist/index.js
-# dist/index.web.js
+# dist/main.js
+# dist/main.web.js
 npm run build
 ```
 
-拷贝 index.js 文件：
+拷贝 main.js 文件：
 
 ```bash
-# 启动 Anodroid项目后手动将index.js文件拷贝至Android项目中
+# 启动 Anodroid项目后手动将main.js文件拷贝至Android项目中
 # 起始位置：
-# dist/index.js
+# dist/main.js
 # 目标位置：
 # platform/android/app/src/main/assets/index.js
 ```
