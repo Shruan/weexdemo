@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/jacoco/jacocoagent.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fdca30f45b60c6ba724c26a9ce127975e26d4bcb">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/jacocoagent_291ad30953c8416cd4df8167a0d41fdce0a1e16e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/library-2.4.0_0127304829aa7a8118f7b9f31ce17d0749271751.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.taobao.android/weex_inspector/0.10.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.10.0.5_045b3d7e43c39b12f7e6364426e340f9e3c81f05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_a086188db9a8182b2fd90fb2d7a9888df6caf581.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/templates/weexplugin/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4380920339da6432983f39c738858bc0aef8cf0e">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/templates-weexplugin-unspecified_f47ccd2e1616e457196e38f3602df0cc3c7b4c0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.10.0_a720a91576d607c380e41234d266148b8bde0d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_51af70112bc8607e73dda04e0a4b7dd4fa4d37df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_2a37a9d9e45ecf56493f0b2d1484596dd2c6f543.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_89e23d58ae9d03e9728f069f8a9107c123166a21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/templates/appframework/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c8c7f2148be85c4e35f1ff0080ec62cbefaafdac">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/templates-appframework-unspecified_458ac5328ab1a7f68d7b5591eebf5f45846f3b17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_0b167ae4df92aa18271c0050df74c82fda7eb18a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.10.0_1b62c607d68156a4d19ffd220fc406d8cfd2066d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_78d0e2d5e07a44af6d298867046d542cefb85593.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_d3cf30773b582085aba6be2b35d5a1ea870d13de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.10.0_a1f4219940fb93a3b18f6221c62e8d34b0018cdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.4.0_5ddaf8cceeff181b5ed3bcdb1635d4d530452f30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c661d2cd2b4e0f3236d37b1e2b84b2b3a0a19f5">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.10.0_26402afabbd9e1e252577d2c2fe48fc81a13f05a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_59fdc6612d377f3e29dfb59efa6f3fb5b0cf471e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_270b886b82bc658442459e9b0cc43baca9bb5379.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/okio-1.3.0_5bdc507e36970c9558500019d87e0d89d0361c81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_c643dfd12273babf2b9b1196e8d4079430cc2bfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/core-3.2.1_8c79b1e2bb7e1b0cccc0001a92fbbd84c9d5443c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.10.0_c53011b19ddac632507b02990954e80347cf5dc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_9f60eba469a029e747b5f71871f47f9894cce5e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_a5799fb6e4d4eb9703e240d46f8894a9e373987f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/Users/budao/app-framework-android/bin/templates/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.10.0_4a2954edd5998652c2b72771ecd5fad0c508524f.jar" />
+    </item>
+
+</items>
