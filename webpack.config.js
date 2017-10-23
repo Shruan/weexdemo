@@ -2,8 +2,8 @@ const pathTo = require('path');
 const fs = require('fs-extra');
 const webpack = require('webpack');
 
-const entry = {};
-const weexEntry = {};
+const entry =pathTo.resolve('./src/main.js');
+const weexEntry = pathTo.resolve('./src/main.js');
 const vueWebTemp = 'temp';
 const hasPluginInstalled = fs.existsSync('./web/plugin.js');
 var isWin = /^win/.test(process.platform);
@@ -46,9 +46,9 @@ function walk(dir) {
         if (extname === '.vue') {
           const entryFile = pathTo.join(vueWebTemp, dir, pathTo.basename(file, extname) + '.js');
           fs.outputFileSync(pathTo.join(entryFile), getEntryFileContent(entryFile, fullpath));
-          
+
           entry[name] = pathTo.join(__dirname, entryFile) + '?entry=true';
-        } 
+        }
         weexEntry[name] = fullpath + '?entry=true';
       } else if (stat.isDirectory() && file !== 'build' && file !== 'include') {
         const subdir = pathTo.join(dir, file);
@@ -75,7 +75,7 @@ const webConfig = {
     filename: '[name].web.js',
   },
   module: {
-    // webpack 2.0 
+    // webpack 2.0
     rules: [
       {
         test: /\.js$/,
