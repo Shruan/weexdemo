@@ -32,6 +32,6 @@ lauch.json
 /plugins/*
 /platforms/android
 /dist/
-/temp/
+/temp/pages/
 /package-lock.json
 assets/tools/
