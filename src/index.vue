@@ -1,5 +1,5 @@
 <template>
-  <div id="root">
+  <div class="wrapper" id="root" @click="update">
     <router-view></router-view>
   </div>
 </template>
@@ -12,11 +12,20 @@
 </style>
 
 <script>
-// import router from './router/index.js'
+  // import config from'./main.js'
+
+  // var config = {}
   export default {
     data: {
       logoUrl: 'http://img1.vued.vanthink.cn/vued08aa73a9ab65dcbd360ec54659ada97c.png',
       target: 'World'
+    },
+    created () {
+      console.log('xxxxxx')
+      console.log(this)
+      this.$router.push({path: '/login'})
+    },
+    mounted () {
     },
     methods: {
       update: function (e) {
