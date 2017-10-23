@@ -1,4 +1,7 @@
-#Mon Feb 27 16:34:42 CST 2017
-base.0=/Users/budao/app-framework-android/bin/templates/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Tue Oct 24 01:18:48 CST 2017
+base.0=/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f68bc20b64f95524226668f82cef189f963a556
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/budao/app-framework-android/bin/templates/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_50eb15bf3bdb5e3a981a13000758dadbf3176201/classes.dex
+base.1=/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_50eb15bf3bdb5e3a981a13000758dadbf3176201
+file.0=/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f68bc20b64f95524226668f82cef189f963a556/classes.dex

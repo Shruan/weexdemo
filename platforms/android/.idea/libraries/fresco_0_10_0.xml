@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="fresco-0.10.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/appframework/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/res" />
-      <root url="jar://$PROJECT_DIR$/appframework/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/4a92b8a4b9418c1f6f10cc8342480f51c0d55706/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4a92b8a4b9418c1f6f10cc8342480f51c0d55706/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -84,5 +84,48 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/qiushiyuan/.android/build-cache/2243cd693db35563ddad95503ec0f79d08460be8/output/res/values-w600dp/values-w600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 63,
+                        "endOffset": 291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/qiushiyuan/.android/build-cache/2243cd693db35563ddad95503ec0f79d08460be8/output/res/values-w600dp/values-w600dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 54,
+                        "endOffset": 346
+                    }
+                }
+            }
+        ]
     }
 ]

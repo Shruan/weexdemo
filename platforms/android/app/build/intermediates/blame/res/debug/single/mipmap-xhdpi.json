@@ -4,6 +4,10 @@
         "source": "/Users/budao/weex-pack/generator/platforms/templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/budao/app-framework-android/bin/templates/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/budao/app-framework-android/bin/templates/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
