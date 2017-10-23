@@ -36,12 +36,20 @@ npm run build
 # 目标位置：
 # platform/android/app/src/main/assets/index.js
 ```
-
+### 安装android平台
+```
+$ weexpack platform add android
+```
 ### 启动 Android 项目
 
 首先应该安装 [Android Studio](https://developer.android.com/studio/index.html) 和必要的 Android SDK，配置好基本的开发环境。
 
 使用 Android Studio 打开 `android` 目录中的项目，等待自动安装完依赖以后，即可启动模拟器或者真机预览页面。
+
+### 安装ios平台
+```
+$ weexpack platform add ios
+```
 
 ### 启动 iOS 项目
 
