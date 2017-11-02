@@ -4,8 +4,18 @@
 * appRequire.get(apiUrl, callback)
 *
 * myAxios.get(apiUrl, callback)
-* 
+*
 */
+
+/*
+*
+* 提供三种请求方式，get、post、postText
+* 其中postText是发送form表单类型的请求。需先转换数据格式
+* 数据格式为：body=xxx&title=xxx&id=0
+*
+*/
+
+const modal = weex.requireModule('modal')
 
 // 实例化stream模块对象
 const stream = weex.requireModule('stream')
@@ -15,25 +25,53 @@ import axios from 'axios';
 
 // 封装模块，使用方式
 export const appRequire = {
-  get (apiUrl, callback) {
+  get (apiUrl, header, callback) {
+    // let header = {
+    //   'Content-Type': 'application/x-www-form-urlencoded',
+    //   'Content-Type': 'application/json; charset=utf-8'
+    // }
+    // if (nheader.token) {
+    //   for (let obj in nheader) {
+    //     header[obj] = nheader[obj]
+    //   }
+    // }
     return stream.fetch({
       method: 'GET',
       type: 'json',
-      headers: {
-        'Content-Type':'application/x-www-form-urlencoded',
-        'Content-Type': 'application/json; charset=utf-8'
-      },
+      headers: header,
       url: apiUrl
     }, callback)
   },
-  post (apiUrl, sentData, callback) {
+  post (apiUrl, sentData, header, callback) {
+    // let header = {
+    //   'Content-Type': 'application/x-www-form-urlencoded',
+    //   'Content-Type': 'application/json; charset=utf-8'
+    // }
+    // if (nheader.token) {
+    //   for (let obj in nheader) {
+    //     header[obj] = nheader[obj]
+    //   }
+    // }
     return stream.fetch({
       method: 'POST',
       type: 'json',
-      headers: {
-        'Content-Type':'application/x-www-form-urlencoded',
-        'Content-Type': 'application/json; charset=utf-8'
-      },
+      headers: header,
+      body: sentData,
+      url: apiUrl
+    }, callback)
+  },
+  postText (apiUrl, sentData, header, callback) {
+    // let ret = ''
+    // for (let it in sendData) {
+    //   if (ret !== '') {
+    //     ret += '&'
+    //   }
+    //   ret += encodeURIComponent(it) + '=' + encodeURIComponent(sendData[it])
+    // }
+    return stream.fetch({
+      method: 'POST',
+      type: 'text',
+      headers: header,
       body: sentData,
       url: apiUrl
     }, callback)
@@ -41,10 +79,48 @@ export const appRequire = {
 }
 
 export const myAxios = {
-  get (apiUrl, callback) {
-    axios.get(apiUrl).then(callback)
+  get (apiUrl, header, callback) {
+      axios.get(apiUrl, {headers: header}).then(callback)
+
+    // if (nheader.token) {
+    //   console.log(nheader)
+    //   axios.get(apiUrl, {headers: nheader}).then(callback)
+    // } else {
+    //   axios.get(apiUrl).then(callback)
+    // }
   },
-  post (apiUrl, sendData, callback) {
-    axios.post(apiUrl, sendData).then(callback)
+  post (apiUrl, sendData, header, callback) {
+      axios.post(apiUrl, sendData, {headers: header}).then(callback)
+    // if (nheader.token) {
+    //   console.log(nheader)
+    //   axios.post(apiUrl, sendData, {headers: nheader}).then(callback)
+    // } else {
+    //   axios.post(apiUrl, sendData).then(callback)
+    // }
+  },
+  postText (apiUrl, sendData, header, callback) {
+    axios({
+      url: apiUrl,
+      method: 'post',
+      data: sendData,
+      // transformRequest: [function (sendData) {
+      //   // Do whatever you want to transform the data
+      //   let ret = ''
+      //   for (let it in sendData) {
+      //     if (ret !== '') {
+      //       ret += '&'
+      //     }
+      //     ret += encodeURIComponent(it) + '=' + encodeURIComponent(sendData[it])
+      //   }
+      //   // ret = ret.Substring(0,ret.Length - 1)
+      //   console.log(ret)
+      //   return ret
+      // }],
+      transformRequest: [function (sendData) {
+        let ret = sendData
+        return ret
+      }],
+      headers: header
+    }).then(callback)
   }
 }
