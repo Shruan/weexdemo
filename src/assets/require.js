@@ -40,7 +40,16 @@ export const appRequire = {
       type: 'json',
       headers: header,
       url: apiUrl
-    }, callback)
+    }, res => {
+      if (res.ok) {
+        return callback(res)
+      } else {
+        modal.toast({
+          message: '网络错误，请稍后再试',
+          duration: 0.3
+        })
+      }
+    })
   },
   post (apiUrl, sentData, header, callback) {
     // let header = {
@@ -58,7 +67,20 @@ export const appRequire = {
       headers: header,
       body: sentData,
       url: apiUrl
-    }, callback)
+    }, res => {
+      if (res.ok) {
+        // modal.toast({
+        //   message: res,
+        //   duration: 0.3
+        // })
+        return callback(res)
+      } else {
+        modal.toast({
+          message: '网络错误，请稍后再试',
+          duration: 0.3
+        })
+      }
+    })
   },
   postText (apiUrl, sentData, header, callback) {
     // let ret = ''
@@ -74,14 +96,27 @@ export const appRequire = {
       headers: header,
       body: sentData,
       url: apiUrl
-    }, callback)
+    }, res => {
+      if (res.ok) {
+        return callback(res)
+      } else {
+        modal.toast({
+          message: '网络错误，请稍后再试',
+          duration: 0.3
+        })
+      }
+    })
   }
 }
 
 export const myAxios = {
   get (apiUrl, header, callback) {
-      axios.get(apiUrl, {headers: header}).then(callback)
-
+      axios.get(apiUrl, {headers: header}).then(callback).catch(res => {
+        modal.toast({
+          message: '网络错误，请稍后再试',
+          duration: 0.3
+        })
+      })
     // if (nheader.token) {
     //   console.log(nheader)
     //   axios.get(apiUrl, {headers: nheader}).then(callback)
@@ -90,7 +125,12 @@ export const myAxios = {
     // }
   },
   post (apiUrl, sendData, header, callback) {
-      axios.post(apiUrl, sendData, {headers: header}).then(callback)
+      axios.post(apiUrl, sendData, {headers: header}).then(callback).catch(res => {
+        modal.toast({
+          message: '网络错误，请稍后再试',
+          duration: 0.3
+        })
+      })
     // if (nheader.token) {
     //   console.log(nheader)
     //   axios.post(apiUrl, sendData, {headers: nheader}).then(callback)
@@ -121,6 +161,11 @@ export const myAxios = {
         return ret
       }],
       headers: header
-    }).then(callback)
+    }).then(callback).catch(res => {
+      modal.toast({
+        message: '网络错误，请稍后再试',
+        duration: 0.3
+      })
+    })
   }
 }
