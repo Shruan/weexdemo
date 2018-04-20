@@ -65,7 +65,8 @@ const plugins = [
     banner: '// { "framework": ' + (fileType === '.vue' ? '"Vue"' : '"Weex"') + '} \n',
     raw: true,
     exclude: 'Vue'
-  })
+  }),
+  new webpack.BannerPlugin("'author': 'Shruan <qiushiyuan1994@qq.com>\n 'Github': 'https://github.com/Shruan'")
 ];
 const webConfig = {
   context: pathTo.join(__dirname, ''),
