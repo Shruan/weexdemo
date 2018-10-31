@@ -1,4 +1,4 @@
-#Tue Oct 24 01:18:48 CST 2017
+#Tue Oct 24 18:27:26 CST 2017
 base.0=/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f68bc20b64f95524226668f82cef189f963a556
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -2,6 +2,168 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_17f0567ebadba9f74a5bc1663fbecc81628c88b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/0d00bbdf5eb71b6316f5a581590d1334448dd9e4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_aa927c23acf0b3e4a90b770f35b16cf22f617836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/488437dfbca17326ec9bdf4a25833bca89bd18eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_c701bf3d19b935a9ee54bd581deba3fbc9d799cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/2243cd693db35563ddad95503ec0f79d08460be8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_8a22a7ed75df3e894bc6f44c2a1456fe9fd4a5a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_877e6bbc5b1758a29d631b26be9eecda3ef8f610.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/appframework/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c8c7f2148be85c4e35f1ff0080ec62cbefaafdac">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_e7023e17b4ab010a76b64b269cc0c783610deb88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_27ea7d897fb242b29fcca5531e00dc4139bbaf14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/a7aa55b4d7dcb4bfe2644d590fe7aa1c1c6d2801/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_de62132ae67c9f1a701bbc38ff4ce918f5f55fd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/44383c3b1ec5af07c01df39235ed070b198f8d49/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_1f943aaa0f542916ea19326f46949898d103056c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/9bdf4259fe5ce896f6f6b107c0939cf811c71320/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_5e03fa499182d8099729db650897303f8edfc15d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/7e29e7b4bb9eec24b3d135c01aaf5bba64bb5916/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_21ab9900f046e2de49abb4bb1fc46a763ceaf9b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/4a92b8a4b9418c1f6f10cc8342480f51c0d55706/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_dcf0080049f0740538d20410b6bc2dc501bd7c06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_674770555140ff16253b9a1d291b1311889f067d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_70d8605bf0cd89efa9088f33c6e2ecceaf90c647.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/eee63e269cd715b540c3ec014283a75e33b4ec46/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_7883e4d30253139c7917dd7df0f07f8d44a88f38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/46a6cea1029d1adef447c93a5623021402e7ba41/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_317ec9e54036ee04ea4e3cd7bdb8db27ef1f4124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/weexplugin/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4380920339da6432983f39c738858bc0aef8cf0e">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_d37b0c3c7365569d52675f472982c2114fcf6448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/71a8de9f72d6e5d29a20f425509b0344a0faddcd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_1e1121643ba7c43710b3b3b63b1b0dda4b3c02df.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -11,6 +173,42 @@
         <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_50eb15bf3bdb5e3a981a13000758dadbf3176201/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/a7aa55b4d7dcb4bfe2644d590fe7aa1c1c6d2801/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_2b84b295a43488bb467ebab7fb809fa2507c797c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/jacoco/jacocoagent.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fdca30f45b60c6ba724c26a9ce127975e26d4bcb">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/jacocoagent_7183f12e383ad6aad10c31a36bebd4d264352933.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/okio-1.3.0_4aaaa9b96da9ec119bbbff40087868a02682fbb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_acceed64942e29bd218fb1b1c3874e0de5a061ab.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
@@ -18,6 +216,24 @@
         revision="25.0.0"
         sha1="b89675c59135d33dc4114373ffb603010135c271">
         <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6f68bc20b64f95524226668f82cef189f963a556/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_fcea065c32f54308d5d2d883ad1b8d2316bc3ce2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/qiushiyuan/.android/build-cache/21ecdb1a24804294c0fd1fc4f69976abae20fc45/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/qiushiyuan/office/GitHub/weexdemo/platforms/android/app/build/intermediates/pre-dexed/debug/classes_bb77729f2189b2946577d4e4f9e00ad7d3896a2e.jar" />
     </item>
 
 </items>

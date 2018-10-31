@@ -29,5 +29,5 @@ dependencies {
     provided 'com.taobao.android:weex_sdk:0.10.0'
     testCompile 'junit:junit:4.12'
     // PLUGIN GRADLE EXTENSIONS START
-    // PLUGIN GRADLE EXTENSIONS END
+// PLUGIN GRADLE EXTENSIONS END
 }
